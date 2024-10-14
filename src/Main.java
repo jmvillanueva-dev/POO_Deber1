@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Main {
+    static Scanner entrada= new Scanner(System.in);
+
+    public static void main(String[] args){
+        int opcion;
+        do {
+            System.out.println("\n_______________________________________________");
+            System.out.println("| Calculadora de areas de figuras geometricas |");
+            System.out.println("| 1.- Triangulo                               |");
+            System.out.println("| 2.- Cuadrado                                |");
+            System.out.println("| 3.- Circulo                                 |");
+            System.out.println("| 4.- Salir                                   |");
+            System.out.println("-----------------------------------------------");
+            System.out.print(">> Ingrese una opcion: ");
+            opcion=entrada.nextInt();
+            switch (opcion) {
+                case 1:
+                    triangulo();
+                    break;
+                case 2:
+                    cuadrado();
+                    break;
+                case 3:
+                    circulo();
+                    break;
+                case 4:
+                    break;
+                default:
+                    System.out.println(">> ¡Error! ingrese una opcion valida.");
+            }
+        } while (opcion!=4);
+        System.out.println("Saliendo del programa . . .");
+        System.out.print(">> FIN DEL PROGRAMA <<");
+    }
+
+    // Función para calcular el área de un triángulo
+    static void triangulo(){
+        // Desarrollar algoritmo y aplicar metodo para redondear a dos cifras los resultados.
+        // Responsable: Erick Nuñez
+    }
+
+    // Función para calcular el área de un cuadrado
+    static void cuadrado(){
+        // Desarrollar algoritmo
+        // Responsable: Adrian Caiza
+    }
+
+    // Función para calcular el área de un círculo
+    static void circulo(){
+        // Desarrolar algoritmo
+        // Responsable: Adrian Caiza
+    }
+}
