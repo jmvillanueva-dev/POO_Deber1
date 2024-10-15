@@ -40,16 +40,22 @@ public class Main {
         // Desarrollar algoritmo y aplicar metodo para redondear a dos cifras los resultados.
         // Responsable: Erick Nuñez
     }
-
+    //Agregadas las funciones de calculo del area de un cuadrado y un circulo.
     // Función para calcular el área de un cuadrado
     static void cuadrado(){
-        // Desarrollar algoritmo
-        // Responsable: Adrian Caiza
+        System.out.println("----Area del cuadrado----");
+        System.out.print(" Ingrese el valor de la longitud cm: ");
+        float longitud=entrada.nextInt();
+        float area_cuadrado=longitud*longitud;
+        System.out.print(">>El area del cuadrado es: "+area_cuadrado+"\n");
     }
-
     // Función para calcular el área de un círculo
     static void circulo(){
-        // Desarrolar algoritmo
-        // Responsable: Adrian Caiza
+        System.out.println("----Area del circulo----");
+        System.out.print(" Ingrese el valor del radio en cm: ");
+        float radio=entrada.nextInt();
+        double area_circulo=(radio*radio)*3.1416;
+        System.out.print(">>El area del circulo es: "+area_circulo+"\n");
     }
+
 }
