@@ -39,6 +39,13 @@ public class Main {
     static void triangulo(){
         // Desarrollar algoritmo y aplicar metodo para redondear a dos cifras los resultados.
         // Responsable: Erick Nuñez
+        System.out.println("\n----Area del triangulo----");
+        System.out.print(" Ingrese el valor de la base en cm: ");
+        float base=entrada.nextFloat();
+        System.out.print(" Ingrese el valor de la altura en cm: ");
+        float altura=entrada.nextFloat();
+        float area_triangulo=(base*altura)/2;
+        System.out.print(">>El area del triangulo es: "+area_triangulo+"\n");
     }
     //Agregadas las funciones de calculo del area de un cuadrado y un circulo.
     // Función para calcular el área de un cuadrado
@@ -57,5 +64,4 @@ public class Main {
         double area_circulo=(radio*radio)*3.1416;
         System.out.print(">>El area del circulo es: "+area_circulo+"\n");
     }
-
 }
